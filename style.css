@@ -1,0 +1,72 @@
+*{
+background-image: url(background-image.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.container{
+    border: 5px solid #f1f1f1;
+    width: 520px;
+    margin-top: 60px;
+    margin-left: 460px;
+    height: 400px;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+  
+    
+    
+}
+.result{
+    width: 96%;
+    height: 100px;
+  background-color: white;
+  margin-top: 1px ;
+  color:rgb(255, 255, 255);
+  align-items: center;
+    text-align: center;
+    font-size: 30px;
+      
+}
+.btn{
+    margin-top: 10px ;
+    width: 100px;
+    border-radius: 70px;
+    
+    
+}
+.halfBtn{
+    width: 48%;
+    border-radius: 10px;
+    margin-top: 10px; 
+    align-items: center;
+    text-align: center;
+}
+.cleanBtn{
+    width: 23%;
+    border-radius: 10px;
+    margin-top: 10px; 
+}
+.clearBtn{
+    width: 24%;
+    border-radius: 10px;
+    margin-top: 10px; 
+    
+}
+button{
+    position: relative;
+    font-size: 30px;
+    cursor: pointer;
+    border: 2px solid #00838F;
+    transition: 1.5s;
+    
+      
+}
+button:hover {
+    background-color: black;
+    box-shadow: 0 5px 50px 0 #00BCD4 inset, 0 5px 50px 0 #00BCD4;
+    text-shadow: 0 0 5px #00BCD4, 0 0 5px  #00BCD4;
+  }
